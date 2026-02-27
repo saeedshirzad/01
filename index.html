@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cabino_On – طراحی و نصب کابینت پریمیوم با تکنولوژی روز" />
+  <title>Cabino_On | طراحی کابینت لوکس</title>
+
+  <!-- Google Fonts: Vazirmatn (Persian) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <span class="logo-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="8" width="28" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+            <rect x="2" y="8" width="14" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+            <circle cx="9" cy="18" r="1.5" fill="currentColor"/>
+            <circle cx="23" cy="18" r="1.5" fill="currentColor"/>
+            <path d="M6 4 L26 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo-text">Cabino<span class="logo-accent">_On</span></span>
+      </a>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#features" class="nav__link">خدمات</a></li>
+        <li><a href="#process" class="nav__link">فرآیند</a></li>
+        <li><a href="#calculator" class="nav__link">محاسبه قیمت</a></li>
+        <li><a href="#gallery" class="nav__link">گالری</a></li>
+        <li><a href="#testimonials" class="nav__link">نظرات</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <a href="#calculator" class="btn btn--primary btn--sm">شروع طراحی</a>
+        <button class="nav__toggle" id="navToggle" aria-label="منو">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <!-- Animated background orbs -->
+    <div class="hero__orb hero__orb--1"></div>
+    <div class="hero__orb hero__orb--2"></div>
+    <div class="hero__orb hero__orb--3"></div>
+
+    <div class="container hero__container">
+      <div class="hero__badge reveal">
+        <span class="badge-dot"></span>
+        طراحی هوشمند، نصب حرفه‌ای
+      </div>
+      <h1 class="hero__title reveal">
+        آشپزخانه‌ات را با<br/>
+        <span class="text-gradient">دقت بی‌نظیر</span><br/>
+        متحول کن
+      </h1>
+      <p class="hero__subtitle reveal">
+        با وارد کردن ابعاد فضا، رندر سه‌بعدی و قیمت تقریبی دریافت کن.<br/>
+        کارشناسان ما برای اندازه‌گیری دقیق به محل می‌آیند.
+      </p>
+      <div class="hero__cta reveal">
+        <a href="#calculator" class="btn btn--primary btn--lg">
+          <i class="fa-solid fa-ruler-combined"></i>
+          دریافت برآورد رایگان
+        </a>
+        <a href="#gallery" class="btn btn--ghost btn--lg">
+          <i class="fa-solid fa-images"></i>
+          مشاهده نمونه‌کارها
+        </a>
+      </div>
+      <div class="hero__stats reveal">
+        <div class="stat">
+          <span class="stat__number" data-target="1200">۰</span>
+          <span class="stat__label">پروژه موفق</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__number" data-target="98">۰</span>
+          <span class="stat__label">درصد رضایت مشتری</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__number" data-target="15">۰</span>
+          <span class="stat__label">سال تجربه</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero visual -->
+    <div class="hero__visual reveal">
+      <div class="hero__img-frame">
+        <div class="hero__cabinet-mockup">
+          <div class="cabinet-upper">
+            <div class="cabinet-door cd-1"><span class="door-handle"></span></div>
+            <div class="cabinet-door cd-2"><span class="door-handle"></span></div>
+            <div class="cabinet-door cd-3"><span class="door-handle"></span></div>
+            <div class="cabinet-door cd-4"><span class="door-handle"></span></div>
+          </div>
+          <div class="cabinet-counter">
+            <div class="counter-surface"></div>
+            <div class="counter-sink">
+              <div class="sink-bowl"></div>
+              <div class="sink-faucet"></div>
+            </div>
+          </div>
+          <div class="cabinet-lower">
+            <div class="cabinet-door cd-lower cd-1"><span class="door-handle"></span></div>
+            <div class="cabinet-door cd-lower cd-2"><span class="door-handle"></span></div>
+            <div class="cabinet-door cd-lower cd-3"><span class="door-handle"></span></div>
+          </div>
+        </div>
+        <div class="hero__img-badge">
+          <i class="fa-solid fa-cube"></i>
+          <span>رندر ۳D</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint">
+      <span>اسکرول کنید</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">خدمات ما</span>
+        <h2 class="section-title">چرا Cabino_On؟</h2>
+        <p class="section-subtitle">ترکیب فناوری پیشرفته و دست‌های ماهر برای خلق فضاهای استثنایی</p>
+      </div>
+
+      <div class="features__grid">
+        <div class="feature-card glass reveal">
+          <div class="feature-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <rect x="3" y="3" width="30" height="30" rx="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M10 18 L16 24 L26 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">رندر سه‌بعدی</h3>
+          <p class="feature-card__text">قبل از شروع ساخت، ظاهر دقیق کابینت‌هایت را در فضای واقعی ببین. طراحی‌ها با نرم‌افزارهای حرفه‌ای آماده می‌شوند.</p>
+          <span class="feature-card__num">۰۱</span>
+        </div>
+
+        <div class="feature-card glass reveal">
+          <div class="feature-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <circle cx="18" cy="18" r="14" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 10 L18 18 L24 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">نصب‌کنندگان متخصص</h3>
+          <p class="feature-card__text">تیم متخصص ما با بیش از ۱۵ سال تجربه، هر پروژه را با دقت مهندسی نصب می‌کند. گارانتی ۵ ساله برای تمامی پروژه‌ها.</p>
+          <span class="feature-card__num">۰۲</span>
+        </div>
+
+        <div class="feature-card glass reveal">
+          <div class="feature-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <path d="M8 28 L8 14 L18 6 L28 14 L28 28" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <rect x="14" y="20" width="8" height="8" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">مواد اولیه پریمیوم</h3>
+          <p class="feature-card__text">از بهترین چوب‌های وارداتی و یراق‌آلات اروپایی استفاده می‌کنیم. دوام بالا با زیبایی ماندگار.</p>
+          <span class="feature-card__num">۰۳</span>
+        </div>
+
+        <div class="feature-card glass reveal">
+          <div class="feature-card__icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+              <path d="M6 18 C6 11.37 11.37 6 18 6 S30 11.37 30 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M10 26 C12 22 15 20 18 20 S24 22 26 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="18" cy="14" r="3" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">مشاوره اختصاصی</h3>
+          <p class="feature-card__text">یک طراح اختصاصی در تمام مراحل پروژه کنارت است. از ایده تا تحویل، هرگز تنها نیستی.</p>
+          <span class="feature-card__num">۰۴</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">فرآیند کار</span>
+        <h2 class="section-title">از ایده تا واقعیت</h2>
+        <p class="section-subtitle">چهار گام ساده برای داشتن آشپزخانه رویاهایت</p>
+      </div>
+
+      <div class="process__steps">
+        <div class="process-step reveal">
+          <div class="process-step__line"></div>
+          <div class="process-step__icon">
+            <i class="fa-solid fa-ruler"></i>
+          </div>
+          <div class="process-step__content">
+            <span class="step-num">۰۱</span>
+            <h3>ثبت ابعاد فضا</h3>
+            <p>طول، عرض و ارتفاع فضای مورد نظر را در ماشین‌حساب ما وارد کن و برآورد اولیه دریافت کن.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="process-step__line"></div>
+          <div class="process-step__icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="process-step__content">
+            <span class="step-num">۰۲</span>
+            <h3>بازدید و اندازه‌گیری دقیق</h3>
+            <p>کارشناس ما به محل می‌آید، اندازه‌گیری دقیق انجام می‌دهد و نقشه نهایی را آماده می‌کند.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="process-step__line"></div>
+          <div class="process-step__icon">
+            <i class="fa-solid fa-cube"></i>
+          </div>
+          <div class="process-step__content">
+            <span class="step-num">۰۳</span>
+            <h3>طراحی و تولید</h3>
+            <p>رندر سه‌بعدی تایید می‌شود و تولید با بهترین مواد اولیه آغاز می‌شود.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="process-step__icon">
+            <i class="fa-solid fa-check-double"></i>
+          </div>
+          <div class="process-step__content">
+            <span class="step-num">۰۴</span>
+            <h3>نصب و تحویل</h3>
+            <p>نصب حرفه‌ای توسط تیم متخصص و تحویل نهایی با گارانتی کامل.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CALCULATOR ===================== -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">ماشین‌حساب هوشمند</span>
+        <h2 class="section-title">برآورد قیمت آنلاین</h2>
+        <p class="section-subtitle">ابعاد فضای آشپزخانه‌ات را وارد کن و هزینه تقریبی را فوری دریافت کن</p>
+      </div>
+
+      <div class="calculator__wrapper reveal">
+        <div class="calculator__form glass">
+          <h3 class="calc-form__title">
+            <i class="fa-solid fa-calculator"></i>
+            ورود اطلاعات
+          </h3>
+
+          <div class="form-group">
+            <label for="roomLength">طول فضا (متر)</label>
+            <div class="input-wrapper">
+              <input type="number" id="roomLength" placeholder="مثال: ۴.۵" min="1" max="20" step="0.1" />
+              <span class="input-unit">m</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="roomWidth">عرض فضا (متر)</label>
+            <div class="input-wrapper">
+              <input type="number" id="roomWidth" placeholder="مثال: ۳.۲" min="1" max="20" step="0.1" />
+              <span class="input-unit">m</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="roomHeight">ارتفاع سقف (متر)</label>
+            <div class="input-wrapper">
+              <input type="number" id="roomHeight" placeholder="مثال: ۲.۷" min="2" max="5" step="0.1" />
+              <span class="input-unit">m</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="cabinetType">نوع کابینت</label>
+            <div class="select-wrapper">
+              <select id="cabinetType">
+                <option value="1">کابینت کلاسیک</option>
+                <option value="1.3">کابینت مدرن</option>
+                <option value="1.6">کابینت لوکس</option>
+                <option value="2">کابینت VIP</option>
+              </select>
+              <i class="fa-solid fa-chevron-down select-arrow"></i>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="materialType">متریال درب</label>
+            <div class="select-wrapper">
+              <select id="materialType">
+                <option value="1">MDF رنگی</option>
+                <option value="1.2">ملامینه</option>
+                <option value="1.5">هایگلاس</option>
+                <option value="1.8">چوب طبیعی</option>
+              </select>
+              <i class="fa-solid fa-chevron-down select-arrow"></i>
+            </div>
+          </div>
+
+          <button class="btn btn--primary btn--full" id="calcBtn">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            محاسبه قیمت
+          </button>
+        </div>
+
+        <div class="calculator__result glass" id="calcResult">
+          <div class="result__placeholder" id="resultPlaceholder">
+            <div class="result-icon-wrap">
+              <i class="fa-regular fa-lightbulb"></i>
+            </div>
+            <p>ابعاد فضا را وارد کنید تا برآورد قیمت نمایش داده شود</p>
+          </div>
+
+          <div class="result__output" id="resultOutput" style="display:none;">
+            <div class="result__header">
+              <i class="fa-solid fa-chart-simple"></i>
+              <span>برآورد هزینه</span>
+            </div>
+
+            <div class="result__price-main">
+              <span class="price-label">قیمت تقریبی</span>
+              <span class="price-value" id="priceValue">—</span>
+              <span class="price-currency">تومان</span>
+            </div>
+
+            <div class="result__details">
+              <div class="result-detail-row">
+                <span>متراژ کابینت بالا</span>
+                <strong id="upperArea">—</strong>
+              </div>
+              <div class="result-detail-row">
+                <span>متراژ کابینت پایین</span>
+                <strong id="lowerArea">—</strong>
+              </div>
+              <div class="result-detail-row">
+                <span>متراژ کل</span>
+                <strong id="totalArea">—</strong>
+              </div>
+            </div>
+
+            <div class="result__disclaimer">
+              <i class="fa-solid fa-circle-info"></i>
+              این قیمت تقریبی است. کارشناس ما برای برآورد دقیق با شما تماس می‌گیرد.
+            </div>
+
+            <a href="#contact" class="btn btn--gold btn--full">
+              <i class="fa-solid fa-phone-flip"></i>
+              درخواست مشاوره رایگان
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY ===================== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">نمونه‌کارها</span>
+        <h2 class="section-title">هر پروژه، یک شاهکار</h2>
+        <p class="section-subtitle">نگاهی به آخرین پروژه‌های تکمیل شده توسط تیم Cabino_On</p>
+      </div>
+
+      <div class="gallery__filter reveal">
+        <button class="filter-btn active" data-filter="all">همه</button>
+        <button class="filter-btn" data-filter="modern">مدرن</button>
+        <button class="filter-btn" data-filter="classic">کلاسیک</button>
+        <button class="filter-btn" data-filter="luxury">لوکس</button>
+      </div>
+
+      <div class="gallery__grid">
+        <div class="gallery-item reveal" data-category="modern">
+          <div class="gallery-item__inner">
+            <div class="gallery-placeholder gp-1">
+              <div class="cabinet-sketch cs-modern">
+                <div class="cs-upper-row">
+                  <div class="cs-door"></div><div class="cs-door"></div><div class="cs-door"></div>
+                </div>
+                <div class="cs-counter"></div>
+                <div class="cs-lower-row">
+                  <div class="cs-door cs-wide"></div><div class="cs-door"></div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item__overlay">
+              <h4>کابینت مدرن – تهران</h4>
+              <span>۱۴۰۲ | مدرن</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal gallery-item--tall" data-category="luxury">
+          <div class="gallery-item__inner">
+            <div class="gallery-placeholder gp-2">
+              <div class="cabinet-sketch cs-luxury">
+                <div class="cs-upper-row">
+                  <div class="cs-door cs-tall"></div><div class="cs-door cs-tall"></div>
+                </div>
+                <div class="cs-counter cs-marble"></div>
+                <div class="cs-lower-row">
+                  <div class="cs-door"></div><div class="cs-door"></div><div class="cs-door"></div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item__overlay">
+              <h4>کابینت VIP – اصفهان</h4>
+              <span>۱۴۰۳ | لوکس</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal" data-category="classic">
+          <div class="gallery-item__inner">
+            <div class="gallery-placeholder gp-3">
+              <div class="cabinet-sketch cs-classic">
+                <div class="cs-upper-row">
+                  <div class="cs-door cs-panel"></div><div class="cs-door cs-panel"></div><div class="cs-door cs-panel"></div>
+                </div>
+                <div class="cs-counter"></div>
+                <div class="cs-lower-row">
+                  <div class="cs-door cs-panel"></div><div class="cs-door cs-panel"></div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item__overlay">
+              <h4>کابینت کلاسیک – شیراز</h4>
+              <span>۱۴۰۳ | کلاسیک</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal gallery-item--wide" data-category="modern">
+          <div class="gallery-item__inner">
+            <div class="gallery-placeholder gp-4">
+              <div class="cabinet-sketch cs-island">
+                <div class="cs-upper-row">
+                  <div class="cs-door"></div><div class="cs-door"></div><div class="cs-door"></div><div class="cs-door"></div><div class="cs-door"></div>
+                </div>
+                <div class="cs-counter cs-long"></div>
+                <div class="cs-lower-row">
+                  <div class="cs-door"></div><div class="cs-door cs-wide"></div><div class="cs-door"></div><div class="cs-door"></div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item__overlay">
+              <h4>آشپزخانه اوپن – تهران</h4>
+              <span>۱۴۰۳ | مدرن</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal" data-category="luxury">
+          <div class="gallery-item__inner">
+            <div class="gallery-placeholder gp-5">
+              <div class="cabinet-sketch cs-corner">
+                <div class="cs-upper-row">
+                  <div class="cs-door cs-glass"></div><div class="cs-door cs-glass"></div>
+                </div>
+                <div class="cs-counter"></div>
+                <div class="cs-lower-row">
+                  <div class="cs-door cs-wide"></div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item__overlay">
+              <h4>کابینت گوشه‌ای – کرج</h4>
+              <span>۱۴۰۳ | لوکس</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal" data-category="classic">
+          <div class="gallery-item__inner">
+            <div class="gallery-placeholder gp-6">
+              <div class="cabinet-sketch">
+                <div class="cs-upper-row">
+                  <div class="cs-door cs-panel cs-arch"></div><div class="cs-door cs-panel cs-arch"></div>
+                </div>
+                <div class="cs-counter"></div>
+                <div class="cs-lower-row">
+                  <div class="cs-door cs-panel"></div><div class="cs-door cs-panel"></div><div class="cs-door cs-panel"></div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item__overlay">
+              <h4>کابینت رومی – مشهد</h4>
+              <span>۱۴۰۲ | کلاسیک</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">نظرات مشتریان</span>
+        <h2 class="section-title">آن‌ها از ما گفتند</h2>
+        <p class="section-subtitle">تجربه واقعی مشتریانی که زندگی‌شان را متحول کردند</p>
+      </div>
+
+      <div class="testimonials__track" id="testimonialsTrack">
+        <div class="testimonial-card glass reveal">
+          <div class="testimonial-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">"از اول تا آخر پروژه همه چیز عالی بود. رندر سه‌بعدی دقیقاً مثل نتیجه نهایی شد. تیم نصب بسیار حرفه‌ای و منظم بود."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">ف.م</div>
+            <div class="author-info">
+              <strong>فرهاد محمدی</strong>
+              <span>تهران، ولنجک</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass reveal">
+          <div class="testimonial-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">"قیمت‌گذاری شفاف و بدون کم‌وکاست. همان قیمتی که آنلاین محاسبه شد، قیمت نهایی هم همان بود. خیلی ممنون."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">س.ع</div>
+            <div class="author-info">
+              <strong>سارا عباسی</strong>
+              <span>اصفهان، الهیه</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass reveal">
+          <div class="testimonial-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="testimonial-card__text">"کابینت‌های هایگلاس که سفارش دادیم فوق‌العاده‌اند. بعد از ۲ سال هنوز مثل روز اول. گارانتی هم که خیالم رو راحت کرد."</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">م.ر</div>
+            <div class="author-info">
+              <strong>مریم رضایی</strong>
+              <span>مشهد، احمدآباد</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass reveal">
+          <div class="testimonial-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">"طراح اختصاصی‌ام صبر داشت و به تمام ایده‌هام گوش داد. نتیجه چیزی شد که حتی تصورشم نمی‌کردم. عالی!"</p>
+          <div class="testimonial-card__author">
+            <div class="author-avatar">ا.ک</div>
+            <div class="author-info">
+              <strong>امیر کریمی</strong>
+              <span>شیراز، قصردشت</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials__dots" id="testimonialDots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+        <span class="dot" data-index="3"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner" id="contact">
+    <div class="cta-banner__orb"></div>
+    <div class="container">
+      <div class="cta-banner__content reveal">
+        <h2>آماده‌ای آشپزخانه رویاهاتو بسازیم؟</h2>
+        <p>همین حالا با ما تماس بگیر. مشاوره اولیه کاملاً رایگان است.</p>
+        <div class="cta-banner__actions">
+          <a href="tel:+982100000000" class="btn btn--gold btn--lg">
+            <i class="fa-solid fa-phone"></i>
+            ۰۲۱–۰۰۰۰–۰۰۰۰
+          </a>
+          <a href="#calculator" class="btn btn--outline-white btn--lg">
+            <i class="fa-solid fa-calculator"></i>
+            محاسبه قیمت
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <span class="logo-icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                <rect x="2" y="8" width="28" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+                <rect x="2" y="8" width="14" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+                <circle cx="9" cy="18" r="1.5" fill="currentColor"/>
+                <circle cx="23" cy="18" r="1.5" fill="currentColor"/>
+                <path d="M6 4 L26 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="logo-text">Cabino<span class="logo-accent">_On</span></span>
+          </a>
+          <p>طراحی و نصب کابینت‌های لوکس با بهترین متریال و حرفه‌ای‌ترین تیم اجرایی در سراسر ایران.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="اینستاگرام"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="تلگرام"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#" aria-label="واتساپ"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" aria-label="یوتیوب"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <h4>لینک‌های سریع</h4>
+          <ul>
+            <li><a href="#features">خدمات ما</a></li>
+            <li><a href="#process">فرآیند کار</a></li>
+            <li><a href="#calculator">محاسبه قیمت</a></li>
+            <li><a href="#gallery">گالری پروژه‌ها</a></li>
+            <li><a href="#testimonials">نظرات مشتریان</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>خدمات</h4>
+          <ul>
+            <li><a href="#">کابینت آشپزخانه</a></li>
+            <li><a href="#">کمد دیواری</a></li>
+            <li><a href="#">کتابخانه و میز</a></li>
+            <li><a href="#">طراحی داخلی</a></li>
+            <li><a href="#">تعمیر و بازسازی</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h4>تماس با ما</h4>
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>تهران، خیابان ولیعصر، پلاک ۱۲۳</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>۰۲۱–۰۰۰۰–۰۰۰۰</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span>info@cabinoOn.ir</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-clock"></i>
+              <span>شنبه تا چهارشنبه: ۹–۱۸</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© ۱۴۰۳ کلیه حقوق متعلق به <strong>Cabino_On</strong> می‌باشد.</p>
+        <div class="footer__bottom-links">
+          <a href="#">حریم خصوصی</a>
+          <a href="#">قوانین و مقررات</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="بازگشت به بالا">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
